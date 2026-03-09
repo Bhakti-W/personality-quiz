@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>kon ho tum</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle dark/light mode" aria-label="Toggle theme">
+  <span class="theme-icon-dark">☀</span>
+  <span class="theme-icon-light">☽</span>
+</button>
+
+<div class="main-layout">
+  <div class="brand-panel" id="brandPanel">
+    <div class="header-bg"></div>
+    <div class="live-dot">NOW STREAMING</div>
+    <p class="who-gets-you">The one who will always laugh on your jokes</p>
+    <h1>
+      <span class="l1">WHO</span>
+      <span class="l2">REALLY</span>
+      <span class="l3">GETS YOU?</span>
+    </h1>
+    <p class="header-sub">22 characters &nbsp;·&nbsp; 10 questions &nbsp;·&nbsp; zero sugarcoating</p>
+    <div class="result-hero" id="resultHero"></div>
+  </div>
+
+  <div class="quiz-panel">
+    <div class="ticker">
+      <div class="ticker-inner">
+        YOUR INNER WOMAN WHO AGREES WITH YOU &lt;3 &nbsp;·&nbsp; YOUR INNER WOMAN WHO AGREES WITH YOU &lt;3 &nbsp;·&nbsp; YOUR INNER WOMAN WHO AGREES WITH YOU &lt;3 &nbsp;·&nbsp; YOUR INNER WOMAN WHO AGREES WITH YOU &lt;3 &nbsp;·&nbsp;
+        YOUR INNER WOMAN WHO AGREES WITH YOU &lt;3 &nbsp;·&nbsp; YOUR INNER WOMAN WHO AGREES WITH YOU &lt;3 &nbsp;·&nbsp; YOUR INNER WOMAN WHO AGREES WITH YOU &lt;3 &nbsp;·&nbsp; YOUR INNER WOMAN WHO AGREES WITH YOU &lt;3 &nbsp;·&nbsp;
+      </div>
+    </div>
+
+    <div class="prog-wrap">
+      <div class="prog-track"><div class="prog-fill" id="pFill" style="width:0%"></div></div>
+      <div class="prog-label" id="pLabel">1 / 10</div>
+    </div>
+
+    <div class="quiz-wrap" id="quizWrap"></div>
+    <div class="result-screen" id="resultScreen"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
