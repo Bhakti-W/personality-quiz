@@ -277,8 +277,14 @@ body.light-theme .brand-panel .header-bg {
 @keyframes fin { from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:translateY(0)} }
 
 .q-meta { display:flex; align-items:baseline; gap:14px; margin-bottom:18px; }
-.q-num { font-family:'Anton',sans-serif; font-size:80px; line-height:1; color:rgba(12,13,18,0.18); user-select:none; }
-body:not(.light-theme) .q-num { color: rgba(243,241,234,0.22); }
+.q-num {
+  font-family:'Anton',sans-serif;
+  font-size:80px;
+  line-height:1;
+  color:#ffffff; /* interior fill */
+  -webkit-text-stroke: 2px #000000; /* black border */
+  user-select:none;
+}
 .q-label { font-size:12px; letter-spacing:0.25em; color:var(--muted); text-transform:uppercase; }
 .q-text {
   font-family:'Lora',serif; font-style:italic;
