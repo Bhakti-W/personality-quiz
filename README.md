@@ -1,6 +1,6 @@
 # Who Really Gets You?
 
-A personality quiz built for a Women's Day stall at IEEE. Answer 10 questions and get matched with one of 22 iconic women characters. Vibecoded.
+A personality quiz built for a Women's Day stall of IEEE. Answer 10 questions and get matched with one of 22 iconic women characters. Vibecoded.
 
 ## Stack
 
