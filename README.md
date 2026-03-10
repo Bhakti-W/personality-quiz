@@ -17,3 +17,7 @@ cd personality-quiz
 ## Live
 
 https://bhakti-w.github.io/personality-quiz/
+
+# Future enhancements
+
+making it accurate with ml model
